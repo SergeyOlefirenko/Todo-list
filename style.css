@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+i {
+    float: right;
+    margin-left: .5em;
+}
+
+.card {
+    min-height: 30rem;
+    background-color: white;
+    width: 50rem;
+    border-radius: .5rem;
+    padding: 1rem 3rem;
+    background-color: rgb(150, 226, 226);
+}
+
+form {
+    height: 70%;
+    width: 100%;
+}
+
+form input {
+    background-color: lightgray;
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+form input:hover {
+    background-color: white;
+    color: blue;
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: teal;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+}
+form button:hover {
+    background-color: aqua;
+    color: blue;
+    width: 24%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: red;
+}
+
+li {
+    width: 100%;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+    margin-top: 2%;
+    color: blue;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+}
